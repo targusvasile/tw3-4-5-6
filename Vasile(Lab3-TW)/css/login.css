@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+body{
+    background-color: burlywood;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 15px 15px 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    max-width: 650px;
+    width: 90%;
+    background-color: whitesmoke;
+    padding: 25px 30px;
+    border-radius: 5px;
+    border: 7px solid #50394c;
+    margin: 5% auto 0 auto;
+}
+#login, #register{
+    margin-left: 35%;
+    width: 30%;
+}
+#login input[type=text], #login input[type=password]{
+    width: 98%;
+}
+#register input[type=text], #register input[type=password]{
+    width: 98%;
+}
+p{
+    font-weight: bold;
+    color: coral;
+    font-size: 80%;
+}
+button{
+    cursor: pointer;
+    margin-top: 3%;
+    min-width: fit-content;
+    width: 70px;
+    color: blue;
+    border: 1px solid blue;
+    padding: 3px 0;
+}
+button:hover{
+    color: white;
+    background-color: rgb(80, 80, 228);
+}
+#log-btn, #reg-btn{
+    float: right;
+}
+.modal {
+    max-width: 576px;
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    transition: 1s;
+}
+.modal__checkbox {
+    display: none;
+}
+.modal__checkbox:checked ~ div {
+    visibility: visible;
+    opacity: 1;
+}
+.modal__label {
+    text-decoration: underline;
+    cursor: pointer;
+}
+  
+.modal__window {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      visibility: hidden;
+      opacity: 0;
+      transition: .6s;
+}
+  
+.modal__content {
+      max-width: 576px;
+      background: white;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      padding: 2rem;
+      border-radius: 1rem;
+      font-size: 1.5rem;
+}
+
+.modal__window button{
+    cursor: pointer;
+    width: 30%;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 1.5rem;
+    border: 4px solid rgb(2, 2, 129);
+    background-color: white;
+    color: rgb(2, 2, 129);
+    margin-left: 70%;
+}
+
+.modal__window button:hover{
+    background-color: rgb(2, 2, 129);
+    color: white;
+}

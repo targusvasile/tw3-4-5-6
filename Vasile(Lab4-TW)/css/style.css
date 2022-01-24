@@ -1,0 +1,202 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: burlywood;
+  margin: 15px 15px 15px 15px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+  color: rgb(141, 88, 88);
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h4{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: lightgray;
+  font-style: italic;
+}
+img{
+  border-radius: 10px;
+}
+
+.pagina .titlu{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    /* font-family: montserrat; */
+}
+
+.pagina .text .poezie{
+    text-align: center;
+    font-style: italic;
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 350px;
+  }
+  .buttons {
+    margin-top: 10px;
+    margin-left: 35%;
+}
+.buttons button {
+    margin-right: 20px;
+    background-color: #1f8f2e;
+}
+.buttons a {
+    text-decoration: none;
+}
+#sw{
+    background-color: #000000;
+}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin: 0.9px 0 11px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+/* Set a style for all buttons */
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 8px 14px;
+    margin: 2px 0;
+    border-bottom: blueviolet;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:5;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 2px 20px;
+    background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 20%;
+    }
+  }
+
+  .input1{
+    width: 200px;
+  }
+  
+#end{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#next-page, #home-page {
+  background-color: green;
+  overflow: auto;
+  white-space: nowrap;
+  width: fit-content;
+  float: right;
+  margin-bottom: 3%;
+  margin-right: 10%;
+}
+
+#prev-page {
+  background-color: green;
+  overflow: auto;
+  white-space: nowrap;
+  width: fit-content;
+  float: left;
+  margin-bottom: 3%;
+  margin-left: 10%;
+}
+
+#switch-pages a, #next-page a, #prev-page a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+#next-page a:hover, #prev-page a:hover, #home-page a:hover{
+  background-color: rgb(30, 167, 30);
+}
+
+#tab table{
+  border: 2px solid black;
+  margin: 1% auto 4% auto;
+  font-size: larger;
+  background-color: rgb(209, 214, 178);
+}
+
+#tab table td{
+  border: 2px solid black;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 0px;
+  left: 2px;
+  z-index: 99;
+  font-size: 18px;
+  font-weight: bolder;
+  border: none;
+  outline: none;
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  width: 4rem;
+}
+
+#myBtn:hover {
+  background-color: rgb(211, 122, 122);
+}
+
+#log_out{
+  cursor: pointer;
+  float: right;
+}

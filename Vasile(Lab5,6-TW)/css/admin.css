@@ -1,0 +1,89 @@
+body{
+    background-color: burlywood;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 15px 15px 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+  
+.modal__window {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      visibility: hidden;
+      opacity: 0;
+      transition: .6s;
+}
+  
+.modal__content {
+      max-width: 576px;
+      background: white;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      padding: 2rem;
+      border-radius: 1rem;
+      font-size: 1.5rem;
+}
+
+.modal__window button{
+    cursor: pointer;
+    width: 30%;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 1.5rem;
+    border: 4px solid rgb(2, 2, 129);
+    background-color: white;
+    color: rgb(2, 2, 129);
+    margin-left: 70%;
+}
+
+.modal__window button:hover{
+    background-color: rgb(2, 2, 129);
+    color: white;
+}
+
+.table-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-container table{
+    width: 100%;  
+    border-spacing: 5px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.table-container table th, .table-container table td{
+    width: fit-content;
+    border: 1px solid black;
+}
+
+.table-container table th:nth-child(2){
+    width: 150px;
+}
+
+.table-container table th:nth-child(3){
+    width: 180px;
+}
+
+#delete-contact{
+    width: 100%;
+    cursor: pointer;
+    background-color: rgb(238, 66, 66);
+    border: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 3px 8px;
+}
+
+#delete-contact:hover{
+    color: white;
+    background-color: rgb(185, 0, 0);
+}
